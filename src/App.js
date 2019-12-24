@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
 import coral from './assets/images/DendroCoral.jpeg';
+import anemone from './assets/images/anemone.jpg'
+
+
 import './assets/css/App.css';
 
 import Component1 from './components/Component1';
@@ -14,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={coral} className="coral-logo" alt="logo"/>
+        <img src={anemone} className="coral-logo" alt="logo" height="2000" width="2400"/>
         <p>
             {PublishingFeature(name, lastname)}
         </p>
