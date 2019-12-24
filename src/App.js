@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={coral} className="App-logo" alt="logo"/>
+        <img src={coral} className="coral-logo" alt="logo"/>
         <p>
             {PublishingFeature(name, lastname)}
         </p>
@@ -36,7 +36,7 @@ function App() {
 
 
 function PublishingFeature(name, lastname){
-  var presentacion = <h2>This is the {name}  {lastname}</h2>
+  var presentacion = <h2>The {name}  {lastname}</h2>
   return presentacion;
 }
 

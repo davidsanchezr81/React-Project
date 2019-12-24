@@ -20,7 +20,7 @@ class Component1 extends React.Component{
                     fish.nicknames.map((nicknames, i) => {
                         return(
                             <li key={i}>
-                                {nicknames}
+                                {nicknames} {<img src={coral} className="coral-logo" alt="logo" height="42" width="42"/>}
                             </li>
                         );
                     })
