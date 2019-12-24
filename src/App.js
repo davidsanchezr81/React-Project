@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
+import coral from './assets/images/DendroCoral.jpeg';
 import './assets/css/App.css';
 
 import Component1 from './components/Component1';
@@ -7,15 +8,15 @@ import Component2 from './components/Component2';
 
 function App() {
 
-  var nombre = "David";
-  var apellido = "Sanchez";
+  var name = "Reef";
+  var lastname = "Business";
   
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo"/>
+        <img src={coral} className="App-logo" alt="logo"/>
         <p>
-            {HolaMundo(nombre, apellido)}
+            {PublishingFeature(name, lastname)}
         </p>
                    
         </header>
@@ -27,17 +28,15 @@ function App() {
         </section>
         
 
-        <section className="components"> 
-        <Component2/>
-        </section>
+     
 
         </div>
   );
 }
 
 
-function HolaMundo(nombre, apellido){
-  var presentacion = <h2>Hi, I am {nombre} {apellido} and this is my React project</h2>
+function PublishingFeature(name, lastname){
+  var presentacion = <h2>This is the {name}  {lastname}</h2>
   return presentacion;
 }
 
