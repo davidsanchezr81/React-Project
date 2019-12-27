@@ -19,16 +19,16 @@ function App() {
     <Header />
 
       <header className="App-header">
-        <img src={anemone} className="coral-logo" alt="logo" height="200" width="240"/>
+        {/* <img src={anemone} className="coral-logo" alt="logo" height="200" width="240"/> */}
         <p>
-            {PublishingFeature(name, lastname)}
+            {/* {PublishingFeature(name, lastname)} */}
         </p>
                    
         </header>
 
         <section className="components"> 
         
-        <Component1/>
+        {/* <Component1/> */}
 
         </section>
         
