@@ -7,7 +7,7 @@ import anemone from './assets/images/anemone.jpg'
 import './assets/css/App.css';
 
 import Component1 from './components/Component1';
-import Component2 from './components/Component2';
+import Header from './components/Header';
 
 function App() {
 
@@ -16,8 +16,10 @@ function App() {
   
   return (
     <div className="App">
+    <Header />
+
       <header className="App-header">
-        <img src={anemone} className="coral-logo" alt="logo" height="2000" width="2400"/>
+        <img src={anemone} className="coral-logo" alt="logo" height="200" width="240"/>
         <p>
             {PublishingFeature(name, lastname)}
         </p>
