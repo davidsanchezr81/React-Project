@@ -10,7 +10,7 @@ class Header extends Component {
             <header id="header">
                 <div className="center">
                     <div id="logo">
-                        <img src="./assets/images/anemone.jpg" className="app-logo" alt="Logotipo"/>
+                        <img src="./assets/images/anemone.jpg" className="app-logo" alt=""/>
                         <span id="brand">
                             <strong>The Reef Business</strong>
                         </span>
