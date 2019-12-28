@@ -2,13 +2,13 @@ body {
   text-align: center;
   /* background: lightblue;
   margin: 0px;
-  padding: 0px;
+  padding: 0px;*/
 
-  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: antialiased; */
-}
+  -moz-osx-font-smoothing: antialiased;
+} */
 
 ul{
   list-style-type: none;
