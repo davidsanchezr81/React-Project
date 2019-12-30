@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-
-
 class Header extends Component {
 
     render() {
@@ -10,7 +8,7 @@ class Header extends Component {
             <header id="header">
                 <div className="center">
                     <div id="logo">
-                        <img src="./assets/images/anemone.jpg" className="app-logo" alt=""/>
+                        <img src="./assets/images/fish.jpg" className="app-logo"/>
                         <span id="brand">
                             <strong>The Reef Business</strong>
                         </span>
